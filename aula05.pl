@@ -47,7 +47,7 @@ separa2([Primeiro | Lista], ListaPositivos, [Primeiro | ListaNegativos]) :-
 
 % Questão 4
 
-% member(Item, Candidatos), \+ member(Item, Excluidos).
+member(Item, Candidatos), \+ member(Item, Excluidos).
 
 
 % Questão 5

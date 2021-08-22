@@ -110,17 +110,17 @@ sufixo(S, L) :-
 
 
 % Questão 5
-% sublist(S, L) :-
-%     conc(_, L2, L),
-%     conc(S, _, L2).
+sublist(S, L) :-
+    conc(_, L2, L),
+    conc(S, _, L2).
 
 
 % Questão 6
-% sublist2([], _).
-% sublist2([H | T1], [H | T2]) :-
-%     sublist2(T1, T2).
-% sublist2([H | T1], [_ | T2]) :-
-%     sublist2([H | T1], T2).
+sublist2([], _).
+sublist2([H | T1], [H | T2]) :-
+    sublist2(T1, T2).
+sublist2([H | T1], [_ | T2]) :-
+    sublist2([H | T1], T2).
 
 
 % Questão 7

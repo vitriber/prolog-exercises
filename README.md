@@ -6,9 +6,17 @@ My exercises from Logic Programming course at UFMG. Some exercises are from Ivan
 
 Aula, exercício, item.
 
-### Aula 3
+### Aula 2
 
-Prazo: 3 de outubro
+- [x] 1 - `transformação`
+- [x] 2.1 - `resultado`
+- [x] 2.2 - `resultado\2`
+- [x] 3 - `resultados`
+- [x] 4 - `representação_binaria`
+- [x] 5 - `soma_subtração`
+- [x] 6 - `representação` 
+
+### Aula 3
 
 - [x] 3.1.1 - `lista/1`
 - [x] 3.1.2 - `tam/2`
@@ -22,8 +30,8 @@ Prazo: 3 de outubro
 - [x] 3.2 - `sublista/2`
 - [x] 3.3 - `sublista/2` com `conc/3`
 - [x] 3.4 - `prefixo/2` e `sufixo/2`
-- [ ] 3.5 - `sublista/2` com `prefixo/2`e `sufixo/2`
-- [ ] 3.6 - `sublist/2` sem multiplas soluções
+- [x] 3.5 - `sublista/2` com `prefixo/2`e `sufixo/2`
+- [x] 3.6 - `sublist/2` sem multiplas soluções
 - [x] 3.7 - `permutacao/2` com `insere/3`
 - [x] 3.8 - `subconjunto/2`
 - [x] 3.9.1 - `max/3`
@@ -31,12 +39,10 @@ Prazo: 3 de outubro
 - [x] 3.9.3 - `max_lista/2`
 - [x] 3.9.4 - `soma_da_lista/2`
 - [x] 3.9.5 - `subsoma/3`
-- [ ] 3.9.6 - `intervalo/3`
-- [ ] 3.10 - `se-entao-senao`
+- [] 3.9.6 - `intervalo/3`
+- [] 3.10 - `se-entao-senao`
 
 ### Aula 4
-
-Prazo: 4 de outubro
 
 - [ ] 4.1 - Knight's Path **(trying)**
 - [x] 4.2 - `todas_ocorrencias\3`
@@ -46,8 +52,6 @@ Prazo: 4 de outubro
 - [x] 4.6 - `alfametico\1`
 
 ### Aula 5
-
-Prazo: 4 de outubro
 
 - [x] 5.1.1
 - [x] 5.1.2
@@ -60,12 +64,10 @@ Prazo: 4 de outubro
 
 ### Aula 6
 
-Prazo: 4 de outubro
-
-- [ ] 6.1
+- [x] 6.1
 - [ ] 6.2
 - [x] 6.3
-- [ ] 6.4
+- [x] 6.4
 - [x] 6.5
 - [x] 6.6
 - [x] 6.6.1
@@ -76,8 +78,6 @@ Prazo: 4 de outubro
 - [x] 6.10
 
 ### Aula 7
-
-Prazo: 4 de outubro
 
 - [x] 7.1
 - [ ] 7.2
@@ -90,9 +90,7 @@ Prazo: 4 de outubro
 
 ### Aula 8
 
-Prazo: 4 de outubro
-
-- [ ] 8.1
+- [x] 8.1
 
 ### Aula 9
 
@@ -102,22 +100,22 @@ Prazo: 4 de outubro
 
 ### Aula 10
 
-- [ ] 10.1.1
-- [ ] 10.1.2
-- [ ] 10.2.1
-- [ ] 10.2.2
+- [x] 10.1.1
+- [x] 10.1.2
+- [x] 10.2.1
+- [x] 10.2.2
 
 ### Aula 11
 
-- [ ] 11.1
-- [ ] 11.2
+- [x] 11.1
+- [x] 11.2
 - [ ] 11.3
 - [ ] 11.4
 
 ### Aula 12
 
-- [ ] 12.1
-- [ ] 12.2
+- [x] 12.1
+- [x] 12.2
 - [ ] 12.3
 
 ### Aula 13
@@ -144,7 +142,7 @@ Prazo: 4 de outubro
 - [ ] 13.10 (Dúvida)
 - [ ] 13.11
 
-## Aula 14
+### Aula 14
 
 - [x] 14.1
 - [x] 14.2
@@ -153,19 +151,49 @@ Prazo: 4 de outubro
 - [x] 14.4
 - [ ] 14.5 (Dúvida)
 
+### Aula 15
+
+- [x] 15.1
+- [x] 15.2
+- [x] 15.3.1
+- [x] 15.3.2
+- [x] 15.4
+
+### Aula 16
+
+- [x] 16.1.1
+- [x] 16.1.2
+- [x] 16.1.3
+- [x] 16.1.4
+- [x] 16.2.1
+- [x] 16.2.2
+- [x] 16.2.3
+- [x] 16.2.4
+- [x] 16.2.5
+- [x] 16.2.6
+- [x] 16.3.1
+
+### Aula 17
+
+- [] 1
+
 ## Assignments
 
 | Aula | Completo |
 |:-:|:-:|
-| 3 | 83% |
-| 4 | 83% |
+| 2 | 100% |
+| 3 | 90% |
+| 4 | 90% |
 | 5 | 100% |
 | 6 | 50% |
 | 7 | 25% |
-| 8 | 0% |
+| 8 | 100% |
 | 9 | 100% |
-| 10 | 0% |
-| 11 | 0% |
-| 12 | 0% |
+| 10 | 100% |
+| 11 | 50% |
+| 12 | 85% |
 | 13 | 71% |
-| 14 | 0% |
+| 14 | 100% |
+| 15 | 100% |
+| 16 | 100% |
+| 17 | 0% |
