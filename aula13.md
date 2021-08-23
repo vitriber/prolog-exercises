@@ -14,7 +14,6 @@ $\exists$
 $\in$
 $\models$ -->
 
-### Class #13 - List #10
 
 #### 1. Traduza as seguintes frases para lógica de 1ª ordem:
 
@@ -104,16 +103,16 @@ F | F | V
 
 ##### 7.1. $p$ $\vDash$ $q$ é equivalente a $\vDash$ $p$ $\rightarrow$ $q$.
 ##### 7.2. $\vDash$ $($$p$ $\rightarrow$ $q$$)$ $\vee$ $($$\neg$ $p$ $\rightarrow$ $q$$)$. Isso significa que, ou $p$ $\vDash$ $q$ é válido, ou $\neg$ $p$ $\vDash$ $q$ é válido sempre?
-8. 8.1. Para duas sentenças quaisquer p e q, prove que :(p ^ q) e
+
+##### 8. 8.1. Para duas sentenças quaisquer p e q, prove que :(p ^ q) e
 :p _ :q são equivalenes, isto é, uma é consequência lógica da
 outra.
-8.2. Prove que :9p(X) e 8X:p(x) são equivalentes.
+##### 8.2. Prove que :9p(X) e 8X:p(x) são equivalentes.
 
-9. Por que há infinitos modelos em uma linguagem com um ou
-mais símbolos de função?
-10. Prove que a consequência lógica é decidível em linguagens
-finitas sem símbolo de funções.
-11. O que há de errado com o seguinte argumento? Para verificar
+##### 9. Por que há infinitos modelos em uma linguagem com um ou mais símbolos de função?
+##### 10. Prove que a consequência lógica é decidível em linguagens finitas sem símbolo de funções.
+
+##### 11. O que há de errado com o seguinte argumento? Para verificar
 se p  q, mescle tentativas de provar q com tentativas de
 provar :q. Se a tentativa de provar q for bem sucedida, q é
 consequência lógica de p. Se a tentativa de provar :q tiver
