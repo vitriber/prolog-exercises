@@ -239,20 +239,20 @@ valida_jogada(X, Y, Z) :-
  * Envia a jogada nas coordenadas (X, Y, Z) para o adversario ao qual
  * se esta conectado atraves da conexao dada.
  ***********************************************************************/
-envia_jogada(Conexao, X, Y, Z) :-
+envia_jogada(Conexao, X, Y) :-
         Conexao = conexao(_, Entrada, Saida),
-	envia(Saida, jogada(X, Y, Z)),
+	envia(Saida, jogada(X, Y)),
 	read(Entrada, Resposta),
 	(Resposta = aceita    ->
            format(user_output,
                   'Jogada (~d, ~d, ~d) enviada com sucesso.\n',
-                  [X, Y, Z])
+                  [X, Y])
 	% O adversario informou que a jogada enviada nao eh coerente.
 	% Ele continuara esperando o envio de uma jogada valida.
          ; Resposta = recusada -> fail
 	% O adversario retornou algo que nao faz parte do protocolo.
 	% Tente outra vez.
-         ; envia_jogada(Conexao, X, Y, Z)
+         ; envia_jogada(Conexao, X, Y)
         ).
 
 
@@ -279,16 +279,16 @@ mark(X) :-
    \+var(X),
    write(X).
 
-run_local_player(Conexao, X, Y, Z) :- 
+run_local_player(Conexao, X, Y) :- 
    board(B), 
-   alpha_beta(o,3,B,-200,200,(X,Y,Z),_Value), 
-   record(o,X,Y,Z), !,
-   envia_jogada(Conexao, X, Y, Z),
+   alpha_beta(o,3,B,-200,200,(X,Y),_Value), 
+   record(o,X,Y), !,
+   envia_jogada(Conexao, X, Y),
    showBoard.
 
 run_remote_player(Conexao) :-
-   recebe_jogada(Conexao, X, Y, Z),
-   record(x,X,Y,Z), !.
+   recebe_jogada(Conexao, X, Y),
+   record(x,X,Y), !.
 
 run_network_game(Conexao, Player, RemotePlayer) :- (
    showBoard

@@ -1,0 +1,8 @@
+1.1) mais_baixo(João, Maria).
+1.2) mais_alto(Maria, João).
+1.3) ∄X, mais_alto(X, José).   - ou -   ∀X, ¬mais_alto(X, José).
+1.4) mais_alto(Maria, João) ∧ mais_alto(Fábio, João).
+1.5) ∀X ∀Y mais_alto(X, Y) → mais_baixo(Y, X).
+1.6) ∀X ∀Y ∀Z mais_baixo(X, Y) ∧ mais_baixo(Y, Z) → mais_baixo(X, Z).
+
+

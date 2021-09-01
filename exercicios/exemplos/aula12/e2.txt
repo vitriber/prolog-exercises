@@ -1,0 +1,2 @@
+Uma heurística simples seria avaliar as linhas abertas do tabuleiro, onde "linha aberta" significa dizer que a linha possui apenas posições vazias ou com marcações de um jogador.
+A heurística para o valor de um tabuleiro para um jogador J seria a quantidade linhas abertas para este jogador, menos a quantidade de linhas abertas para o outro jogador.

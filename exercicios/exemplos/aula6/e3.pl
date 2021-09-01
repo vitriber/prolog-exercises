@@ -1,0 +1,1 @@
+aterrado(Termo) :- ground(Termo).

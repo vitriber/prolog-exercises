@@ -1,0 +1,3 @@
+2.1) (∀X ∃T pode_enganar(X, T)) ∨ (∃X ∀T pode_enganar(X,T)).
+2.2) ∀D comer(maça, D) -> longe(médico).
+
